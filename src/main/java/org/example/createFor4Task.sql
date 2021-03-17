@@ -1,0 +1,9 @@
+CREATE TABLE numbers(
+    index INTEGER NOT NULL );
+
+INSERT INTO numbers VALUES(1);
+INSERT INTO numbers VALUES(2);
+INSERT INTO numbers VALUES(4);
+INSERT INTO numbers VALUES(7);
+INSERT INTO numbers VALUES(8);
+INSERT INTO numbers VALUES(11);
