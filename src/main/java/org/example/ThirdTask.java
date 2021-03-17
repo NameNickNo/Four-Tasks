@@ -9,6 +9,11 @@ public class ThirdTask {
     public static int replace(int number) {
         String numberString = String.valueOf(number);
         int index = numberString.lastIndexOf("0");
+
+        if (index == -1) {
+            return number; //Some kind of logic, if number does not have  "0"
+        }
+
         StringBuilder builder = new StringBuilder(numberString);
         builder.setCharAt(index, '1');
 
